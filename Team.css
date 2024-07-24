@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  margin: 10px 0 5px 0;
+}
+
+.team-member h3 {
+  margin: 5px 0;
+  font-weight: normal;
+  color: #555;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #666;
+}
